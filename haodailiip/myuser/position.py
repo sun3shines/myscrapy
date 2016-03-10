@@ -3,6 +3,9 @@
 from scrapy.utils.path import urlpath
 from scrapy.parse.http import sendproxys,sendurls
 
+START_URL = 'www.haodailiip.com/guonei/1'
+SCRAPY_UUID = 'proxyhaodaili'
+
 class Link:
     def __init__(self,html,uuid):
         self.html = html
@@ -32,8 +35,6 @@ class Content:
                 
     def parse(self):
 
-        # IP  端口  类型  匿名度
-        # 110.136.226.196  8080  HTTP  高匿
         try:
             table = self.html.find('table',{'class':'proxy_table'})
             trs = table.findAll('tr')

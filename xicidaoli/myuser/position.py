@@ -2,7 +2,8 @@
 
 from scrapy.utils.path import urlpath
 from scrapy.parse.http import sendproxys,sendurls
-
+START_URL = 'http://www.xicidaili.com/nn/4'
+SCRAPY_UUID = 'xicidaili4'
 class Link:
     def __init__(self,html,uuid):
         self.html = html

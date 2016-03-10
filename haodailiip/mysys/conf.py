@@ -21,7 +21,7 @@ class MyConf(Conf):
         return CONTROLLER_PORT
     
     def getlocalhost(self):
-        return '192.168.36.201'
+        return '192.168.36.3'
     
     def getparent(self):
         return ST_DIR
