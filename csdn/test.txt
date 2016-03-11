@@ -1,0 +1,1157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+     
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    
+<head>   
+    
+     
+    <script type="text/javascript" src="http://c.csdnimg.cn/pubfooter/js/tracking.js" charset="utf-8"></script>  
+
+    <script type="text/javascript">
+        var protocol = window.location.protocol;
+        document.write('<script type="text/javascript" src="' + protocol + '//csdnimg.cn/pubfooter/js/repoAddr2.js?v=' + Math.random() + '"></' + 'script>');
+    </script>
+
+  
+ <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+
+    <title>ACdreamer
+        - 博客频道 - CSDN.NET</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <script src="http://static.blog.csdn.net/scripts/jquery.js" type="text/javascript"></script>
+    <script type="text/javascript" src="http://static.blog.csdn.net/scripts/ad.js?v=1.1"></script>
+        <!--new top-->
+               <link rel="stylesheet" href="http://c.csdnimg.cn/public/common/toolbar/css/index.css">        <!--new top-->
+
+    <link rel="Stylesheet" type="text/css" href="http://static.blog.csdn.net/skin/dark1/css/style.css?v=1.1" />
+    <link id="RSSLink" title="RSS" type="application/rss+xml" rel="alternate" href="/ACdreamers/rss/list" />
+    <link rel="shortcut icon" href="http://c.csdnimg.cn/public/favicon.ico" />
+    <link type="text/css" rel="stylesheet" href="http://static.blog.csdn.net/scripts/SyntaxHighlighter/styles/default.css" />
+ 
+
+
+</head>
+<body>
+    
+   
+      <!--new top-->
+    <script id="toolbar-tpl-scriptId" fixed="true" prod="blog" skin="black" src="http://c.csdnimg.cn/public/common/toolbar/js/html.js" type="text/javascript"></script>
+     <!--new top-->
+    <div id="container">
+        <div id="header">
+    <div class="header">
+        <div id="blog_title">
+            <h2>
+                <a href="http://blog.csdn.net/acdreamers">ACdreamer</a></h2>
+            <h3>梦之河上，一叶扁舟！</h3>
+            <div class="clear">
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+</div>
+<div id="navigator">
+    <div class="navigator_bg">
+    </div>
+    <div class="navigator">
+        <ul>
+            
+                <li id="btnContents"><a href="http://blog.csdn.net/acdreamers?viewmode=contents"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_mulu'])">
+                    <img src="http://static.blog.csdn.net/images/ico_list.gif">目录视图</span></a></li>
+                <li id="btnView"><a href="http://blog.csdn.net/acdreamers?viewmode=list"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_zhaiyao'])">
+                    <img src="http://static.blog.csdn.net/images/ico_summary.gif">摘要视图</span></a></li>
+                <li id="btnRss"><a href="http://blog.csdn.net/acdreamers/rss/list"><span onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_RSS'])">
+                    <img src="http://static.blog.csdn.net/images/ico_rss.gif">订阅</span></a></li>                
+
+            </ul>
+    </div>
+</div>
+<script type="text/javascript">
+    var username = "ACdreamers";
+    var _blogger = username;
+    var blog_address = "http://blog.csdn.net/acdreamers";
+    var static_host = "http://static.blog.csdn.net";
+    var currentUserName = "";  
+</script>
+
+        <div id="body">
+            <div id="main">
+                <div class="main">
+                        <div class="ad_class">
+<div class="notice tracking-ad" data-mod='popu_3' > 
+
+<a href="http://blog.csdn.net/blogdevteam/article/details/50737496">
+<font color=red>【征文】Hadoop十周年特别策划——我与Hadoop不得不说的故事
+</font></a>
+&nbsp;&nbsp;&nbsp;
+<a href="http://blog.csdn.net/csdnedu/article/details/50788201">
+<font color=blue>前端精品课程免费看，写课评赢心动大礼！
+
+<a href="http://lib.csdn.net/base/18">
+<font color=red>JavaScript知识库发布
+</font></a>
+
+</font></a>
+</div>                        </div>
+                        
+<div class="list_item_new">
+
+        <div id="article_toplist" class="list">
+
+        </div>
+
+    <div id="article_list" class="list">
+
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/45026459">
+        贝叶斯学习及共轭先验            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+今天的主要任务是来理解共轭先验。最近在研究主题模型，里面提到了这个，所以有必要学习和掌握。
+&#160;
+&#160;
+Contents
+&#160;
+&#160;&#160; 1. 共轭先验的概念
+&#160;&#160; 2. Beta分布和伯努力分布
+&#160;&#160; 3. Dirichlet分布和多项式分布
+&#160;
+&#160;
+1. 共轭先验的概念
+&#160;
+&#160;&#160; 在贝叶斯统计理论中，如果某个随机变量...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-10-13 22:25</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/45026459" title="阅读次数">阅读</a>(949)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/45026459#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(3)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/46431285">
+        调度场算法与逆波兰表达式            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+本文的主要内容是如何求一个给定的表达式的值，具体思路就是先将普通算术的中缀表达式转化为后缀表达式，这一步用到的算法叫做调度场算法。然后对后缀表达式，也就是逆波兰表达式求值。
+
+
+
+
+
+
+题目：http://acm.hdu.edu.cn/showproblem.php?pid=3596
+
+
+代码：...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-06-09 21:37</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/46431285" title="阅读次数">阅读</a>(954)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/46431285#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(2)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/46345645">
+        SlopOne推荐算法            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+在开源框架taste中有SlopOne的Java实现，效果不错。...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-06-03 18:41</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/46345645" title="阅读次数">阅读</a>(606)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/46345645#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/46327761">
+        径向基（RBF）神经网络            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+RBF网络能够逼近任意非线性的函数。可以处理系统内难以解析的规律性，具有很好的泛化能力，并且具有较快的学
+习速度。当网络的一个或多个可调参数（权值或阈值）对任何一个输出都有影响时，这样的网络称为全局逼近网络。
+由于对于每次输入，网络上的每一个权值都要调整，从而导致全局逼近网络的学习速度很慢，比如BP网络。如果对于
+输入空间的某个局部区域只有少数几个连接权值影响输出，则该网络称为局部逼近网络，...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-06-02 16:51</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/46327761" title="阅读次数">阅读</a>(806)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/46327761#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/45462881">
+        三种重要哈希介绍            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+一致性哈希算法是在1997年由麻省理工学院提出，设计的目标是为了解决因特网的热点问题。一致性哈希算法解决了在P2P环境中最为关键的问题，即如何在动态的网络拓扑中分布存储和路由。接下来详细讲述其原理并实现。
+&#160;
+Contents
+&#160;
+&#160; 1. 算法简单介绍
+&#160; 2. 算法原理描述
+&#160; 3. 算法具体实现...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-06-02 13:08</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/45462881" title="阅读次数">阅读</a>(707)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/45462881#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(1)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/46238119">
+        L2正则化方法            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+在机器学习中，无论是分类还是回归，都可能存在由于特征过多而导致的过拟合问题。当然解决的办法有
+&#160;
+&#160; （1）减少特征，留取最重要的特征。
+&#160;&#160;（2）惩罚不重要的特征的权重。
+&#160;
+但是通常情况下，我们不知道应该惩罚哪些特征的权重取值。通过正则化方法可以防止过拟合，提高泛化能力。
+&#160;
+先来看看L2正则化方法。对于之前梯度下降讲到的损失函数来说，在代价函数后面加上一个正则化项，得到...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-05-30 12:51</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/46238119" title="阅读次数">阅读</a>(1726)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/46238119#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/46124711">
+        多项式回归模型（Office Prices）            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+题目：https://www.hackerrank.com/challenges/predicting-office-space-price
+&#160;
+分析：还是上次的房价预测题目，指明要用多项式回归拟合。在多元多项式拟合时候，目标函数表示如下
+&#160;
+&#160;&#160;&#160;&#160; 
+&#160;
+&#160;&#160;&#160;&#160;&#160;对其目标函数求偏导得到
+&#160;
+&#160;&#160;&#160;&#160;&#160;
+&#160;
+&#160;&#160;&#160;&#160; 很容易写出代码。
+&#160;
+代码：
+#coding:ut...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-05-28 21:00</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/46124711" title="阅读次数">阅读</a>(640)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/46124711#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/45937627">
+        房价预测（HackerRank）            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+从今天开始要多做一些关于机器学习方面的竞赛题目，题目来源主要是Hackerrank和Kaggle。...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-05-23 21:50</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/45937627" title="阅读次数">阅读</a>(835)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/45937627#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/45170295">
+        KKT条件            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+在求解最优化问题中，拉格朗日乘子法（Lagrange Multiplier）和KKT（Karush Kuhn Tucker）条件是
+两种最常用的方法。在有等式约束时使用拉格朗日乘子法，在有不等约束时使用KKT条件。关于拉格朗日乘子法之前介绍过，不再赘述。详见：http://blog.csdn.net/acdreamers/article/details/41413445&#160;
+&#160;
+接下来主要介绍...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-04-21 15:05</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/45170295" title="阅读次数">阅读</a>(489)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/45170295#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/45169477">
+        协方差与协方差矩阵            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+本文讲的主要内容是协方差以及协方差矩阵。
+&#160;
+在统计学中，我们见过的最基本的三个概念是均值，方差，标准差。假定给定了n个样本的集合，那么公式如下
+&#160;
+&#160;&#160;&#160;&#160;&#160; 
+&#160;
+均值是描述样本的平均值，标准差描述的是样本集合的各个点到均值距离的平均，体现了样本的散步程度。而方
+差仅仅是标准差的平方。
+&#160;
+&#160;
+实际上，上述的方差是针对一维数据的情况进行统计描述。考虑这样一种情况：假设我们需...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-04-21 14:39</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/45169477" title="阅读次数">阅读</a>(534)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/45169477#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44978591">
+        蒙特卡洛算法            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+今天开始研究Sampling Methods，接下来会分为四部分进行讲解。本文是开篇文章，先来讲讲蒙特卡洛算法。
+&#160;
+&#160;
+Contents
+&#160;
+&#160;&#160; 1. 蒙特卡洛介绍
+&#160;&#160; 2. 蒙特卡洛的应用
+&#160;&#160; 3. 蒙特卡洛积分
+&#160;
+&#160;
+&#160;
+1. 蒙特卡洛介绍
+&#160;
+&#160;&#160; 蒙特卡罗方法（Monte Carlo method），也称统计模拟方法，是二十世纪四十年代中期由于科学技术的...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-04-12 17:23</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44978591" title="阅读次数">阅读</a>(2773)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44978591#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(1)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44997467">
+        关于欧拉工程的一道递推题            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+今天来讲的是在欧拉工程上的一道递推题，题目描述如下链接。
+&#160;
+题目：https://projecteuler.net/problem=492
+&#160;
+当然，这道题在51Nod上有一个比较通用的版本，链接如下
+&#160;
+题目：http://www.51nod.com/contest/problem.html#!problemId=1361
+&#160;
+题意：给定，并且有，给定两个数和，求的值。其中...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-04-11 20:26</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44997467" title="阅读次数">阅读</a>(959)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44997467#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(2)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44672305">
+        协同过滤算法            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+今天要讲的主要内容是协同过滤，即Collaborative Filtering，简称CF。
+&#160;
+Contents
+&#160;
+&#160;&#160; 1. 协同过滤的简介
+&#160;&#160; 2. 协同过滤的核心
+&#160;&#160; 3. 协同过滤的实现
+&#160;&#160; 4. 协同过滤的应用
+&#160;
+&#160;
+1. 协同过滤的简介
+&#160;
+&#160;&#160; 关于协同过滤的一个最经典的例子就是看电影，有时候不知道哪一部电影是我们喜欢的或者评分比较高的，那...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-03-30 00:13</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44672305" title="阅读次数">阅读</a>(3535)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44672305#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(4)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44728041">
+        L-BFGS算法            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+前面的文章中，讲述过BFGS算法，它是用来求解最优化问题的，在这个算法中，相对于普通的牛顿迭代法有很大的改进。链接：http://blog.csdn.net/acdreamers/article/details/44664941。在BFGS算法中，仍然有缺
+陷，比如当优化问题规模很大时，矩阵的存储和计算将变得不可行。为了解决这个问题，就有了L-BFGS算法。
+&#160;
+&#160;
+Contents
+&#160;...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-03-29 18:12</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44728041" title="阅读次数">阅读</a>(4347)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44728041#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(2)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44665545">
+        FaceBook机器学习开源DL模块            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+据GIGAOM报道，近日，Facebook人工智能研究院（FAIR）开源了一系列软件库，以帮助开发者建立更大、更快
+的深度学习模型。开放的软件库在Facebook被称作模块。用它们替代机器学习领域常用的开发环境Torch中的默
+认模块，可以在更短的时间内训练更大规模的神经网络模型。
+&#160;
+如果想了解更多的内容，可以参考下面的一些文章。
+&#160;
+1. Facebook开源深度学习软件库，帮助开...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-03-27 02:03</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44665545" title="阅读次数">阅读</a>(555)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44665545#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44664941">
+        BFGS算法            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+今天，我来讲一种在机器学习中常用到的优化算法，叫做BFGS算法。BFGS算法被认为是数值效果最好的拟牛顿
+法，并且具有全局收敛性和超线性收敛速度。那么接下来将会详细讲解。
+&#160;
+Contents
+&#160;
+&#160;&#160; 1. 什么是拟牛顿法
+&#160;&#160; 2. 拟牛顿法原理
+&#160;&#160; 3. DFP算法原理
+&#160;&#160; 4. BFGS算法原理
+&#160;&#160; 5. BFGS算法的实现
+&#160;
+&#160;
+1. 什么是拟牛顿法...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-03-27 01:55</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44664941" title="阅读次数">阅读</a>(5113)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44664941#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(3)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44664645">
+        K-D树            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+K-D树，即K-Dimensional Tree，是一种高维索引树型数据结构。常用于大规模高维数据空间的最邻近或者K邻
+近查找，例如图像检索中高维图像特征向量的K邻近匹配，对KNN算法的优化等。
+&#160;
+Contents
+&#160;
+&#160;&#160; 1. K-D树的基本原理
+&#160;&#160; 2. K-D树的改进（BBF算法）
+&#160;&#160; 3. K-D树的C++实现
+&#160;&#160; 4. K-D树的开源框架介绍
+&#160;
+&#160;
+1....        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-03-27 01:49</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44664645" title="阅读次数">阅读</a>(855)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44664645#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44664585">
+        随机森林            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+前面介绍过决策树的三种实现：ID3算法，C4.5算法和CART算法。虽然这些决策树有很多优良的性质，比如训练时间
+复杂度较低，模型容易展示等等，但是同时单决策树有一些不好的地方，比如容易over-fitting，虽然剪枝可以减
+少这种现象的发生，但是还是不够的。为了减少决策树的不足，近年来又提出了许多模型组和+决策树的算法，这些算
+法都是生成N棵决策树，虽然这N棵树都很简单，但是它们综合起来...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-03-27 01:45</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44664585" title="阅读次数">阅读</a>(1828)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44664585#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(1)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44664571">
+        决策树之C4.5算法            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+C4.5算法是机器学习中的一个重要的决策树算法，它是对ID3算法的改进，相对于ID3算法主要有以下几个改进
+&#160;
+&#160; （1）用信息增益率来选择属性
+&#160;&#160;（2）在决策树的构造过程中对树进行剪枝
+&#160; （3）对非离散数据也能处理
+&#160; （4）能够对不完整数据进行处理
+&#160;
+接下来分别详细讲述这几点的改进方案
+&#160;
+（1）用信息增益率来选择属性
+&#160;
+&#160;&#160;&#160; 在ID3算法中，我们知道是用信息增...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-03-27 01:43</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44664571" title="阅读次数">阅读</a>(768)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44664571#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(0)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    <div class="list_item article_item">
+        <div class="article_title">   
+         <span class="ico ico_type_Original"></span>
+
+
+    <h1>
+        <span class="link_title"><a href="/acdreamers/article/details/44664481">
+        决策树之CART算法            
+        </a></span>
+    </h1>
+</div>
+
+        <div class="article_description">
+在之前介绍过决策树的ID3算法实现，今天主要来介绍决策树的另一种实现，即CART算法。
+&#160;
+Contents
+&#160;
+&#160;&#160; 1. CART算法的认识
+&#160;&#160; 2. CART算法的原理
+&#160;&#160; 3. CART算法的实现
+&#160;
+&#160;
+1. CART算法的认识
+&#160;
+&#160;&#160;&#160;Classification And Regression Tree，即分类回归树算法，简称CART算法，它是决策树的一种实...        </div>
+            <div class="article_manage">
+             <span class="link_postdate">2015-03-27 01:38</span>
+    
+   
+        <span class="link_view" title="阅读次数"><a href="/acdreamers/article/details/44664481" title="阅读次数">阅读</a>(5242)</span>
+        <span class="link_comments" title="评论次数"><a href="/acdreamers/article/details/44664481#comments" title="评论次数" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_pinglun'])">评论</a>(3)</span>
+
+    </div>
+
+        <div class="clear"></div>
+    </div>
+    </div>
+
+    <!--显示分页-->
+
+    <div id="papelist" class="pagelist">
+<span> 522条数据  共27页</span><strong>1</strong> <a href="/ACdreamers/article/list/2">2</a> <a href="/ACdreamers/article/list/3">3</a> <a href="/ACdreamers/article/list/4">4</a> <a href="/ACdreamers/article/list/5">5</a> <a href="/ACdreamers/article/list/6">...</a> <a href="/ACdreamers/article/list/2">下一页</a> <a href="/ACdreamers/article/list/27">尾页</a> 
+    </div>
+
+</div>
+<script  type="text/ecmascript">
+    $(function () {
+        setTimeout(function () {
+            $("a img[src='http://js.tongji.linezing.com/stats.gif']").parent().css({ "position": "absolute", "left": "50%" });
+        }, 300);
+    });    
+</script>
+ 
+                        <div class="clear">
+                        </div>
+                    </div>                   
+                
+            </div>
+                   
+           <div id="side">
+    <div class="side">
+<div id="panel_Profile" class="panel">
+<ul class="panel_head"><span>个人资料</span></ul>
+<ul class="panel_body profile">
+<div id="blog_userface">
+    <a href="http://my.csdn.net/ACdreamers" target="_blank">
+    <img src="http://avatar.csdn.net/D/D/6/1_acdreamers.jpg" title="访问我的空间" style="max-width:90%"/>
+    </a>
+    <br />
+    <span><a href="http://my.csdn.net/ACdreamers" class="user_name" target="_blank">ACdreamers</a></span>
+</div>
+<div class="interact">
+
+    <a href="javascript:void(0);" class="attent" id="span_add_follow" title="[加关注]"></a>
+
+ <a href="javascript:void(0);" class="letter"  title="[发私信]" onclick="window.open('http://msg.csdn.net/letters/model?receiver=ACdreamers','_blank','height=350,width=700');_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_sixin'])"></a>  
+</div>
+<div id="blog_medal">
+                <div id="bms_box">
+                                            <a  target="_blank">
+                                                    <img src="http://c.csdnimg.cn/jifen/images/xunzhang/xunzhang/chizhiyiheng.png" onmouseover="m_over_m(this,4)" onmouseout="m_out_m()" alt="2" >
+                                            </a>
+               </div>
+</div>
+<ul id="blog_rank">
+    <li>访问：<span>936867次</span></li>
+    <li>积分：<span>14665</span> </li>    
+    <li >等级： <span style="position:relative;display:inline-block;z-index:1" >
+            <img src="http://c.csdnimg.cn/jifen/images/xunzhang/jianzhang/blog7.png" alt="" style="vertical-align: middle;" id="leveImg">
+            <div id="smallTittle" style=" position: absolute;  left: -24px;  top: 25px;  text-align: center;  width: 101px;  height: 32px;  background-color: #fff;  line-height: 32px;  border: 2px #DDDDDD solid;  box-shadow: 0px 2px 2px rgba (0,0,0,0.1);  display: none;   z-index: 999;">
+            <div style="left: 42%;  top: -8px;  position: absolute;  width: 0;  height: 0;  border-left: 10px solid transparent;  border-right: 10px solid transparent;  border-bottom: 8px solid #EAEAEA;"></div>
+            积分：14665 </div>
+        </span>  </li>
+    <li>排名：<span>第427名</span></li>
+</ul>
+<ul id="blog_statistics">
+    <li>原创：<span>478篇</span></li>
+    <li>转载：<span>42篇</span></li>
+    <li>译文：<span>0篇</span></li>
+    <li>评论：<span>235条</span></li>
+</ul>
+</ul>
+</div>
+
+
+<div class="panel" id="panel_Search">
+    <ul class="panel_head"><span>文章搜索</span></ul>
+    <ul class="panel_body">
+        <form id="frmSearch" action="http://so.csdn.net/search" class="form_search" target="_blank">
+        <span><input id="inputSearch" type="text" class="blogsearch" title="请输入关键字" /></span>
+        <input id="btnSubmit" type="button" value="搜索" title="search in blog" />
+        <input type="hidden" name="q" id="inputQ" />
+        <input type="hidden" name="t" value="blog" />
+        <a id="btnSearchBlog" target="_blank"></a>
+        </form>
+    </ul>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        $("#btnSubmit").click(function () {           
+            search();
+        });
+
+        $("#frmSearch").submit(function () {
+            search();
+            return false;
+        });
+
+        function search()
+        {
+            var url = "http://so.csdn.net/so/search/s.do?q=" + encodeURIComponent($("#inputSearch").val()) + "&u=" + username + "&t=blog";
+            window.location.href = url;
+        }   
+    });
+</script><div id="panel_Category" class="panel">
+<ul class="panel_head"><span>文章分类</span></ul>
+<ul class="panel_body">    
+                 <li>
+                    <a href="/ACdreamers/article/category/1159392" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">数论</a><span>(69)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1159407" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">图论</a><span>(30)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1343872" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">搜索</a><span>(14)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1259375" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">字符串</a><span>(22)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1160225" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">基础数学</a><span>(76)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1159396" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">计算几何</a><span>(40)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1159397" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">组合数学</a><span>(28)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1159388" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">动态规划</a><span>(28)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1159780" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">数据结构</a><span>(61)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1159408" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">文学类</a><span>(40)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1162805" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">C/C++</a><span>(29)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1815321" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">HTML5</a><span>(8)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1406678" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Python</a><span>(17)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/1280216" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">Java编程</a><span>(15)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/3055457" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">机器学习</a><span>(33)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/3263293" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">竞赛实战</a><span>(2)</span>
+                </li>
+                 <li>
+                    <a href="/ACdreamers/article/category/3055459" onclick="_gaq.push(['_trackEvent','function', 'onclick', 'blog_articles_wenzhangfenlei']); ">技术拓展</a><span>(9)</span>
+                </li>
+</ul>
+</div><div id="panel_Archive" class="panel">
+<ul class="panel_head"><span>文章存档</span></ul>
+<ul class="panel_body">
+<div id="archive_list">
+<!--归档统计-->
+<li><a href="/ACdreamers/article/month/2015/10">2015年10月</a><span>(1)</span></li><li><a href="/ACdreamers/article/month/2015/06">2015年06月</a><span>(4)</span></li><li><a href="/ACdreamers/article/month/2015/05">2015年05月</a><span>(3)</span></li><li><a href="/ACdreamers/article/month/2015/04">2015年04月</a><span>(4)</span></li><li><a href="/ACdreamers/article/month/2015/03">2015年03月</a><span>(38)</span></li><li><a href="/ACdreamers/article/month/2015/02">2015年02月</a><span>(4)</span></li><li><a href="/ACdreamers/article/month/2015/01">2015年01月</a><span>(1)</span></li><li><a href="/ACdreamers/article/month/2014/12">2014年12月</a><span>(2)</span></li><li><a href="/ACdreamers/article/month/2014/11">2014年11月</a><span>(5)</span></li><li><a href="/ACdreamers/article/month/2014/10">2014年10月</a><span>(1)</span></li><li><a href="/ACdreamers/article/month/2014/09">2014年09月</a><span>(4)</span></li><li><a href="/ACdreamers/article/month/2014/08">2014年08月</a><span>(2)</span></li><li><a href="/ACdreamers/article/month/2014/06">2014年06月</a><span>(1)</span></li><li><a href="/ACdreamers/article/month/2014/05">2014年05月</a><span>(7)</span></li><li><a href="/ACdreamers/article/month/2014/04">2014年04月</a><span>(10)</span></li><li><a href="/ACdreamers/article/month/2014/03">2014年03月</a><span>(8)</span></li><li><a href="/ACdreamers/article/month/2014/02">2014年02月</a><span>(8)</span></li><li><a href="/ACdreamers/article/month/2014/01">2014年01月</a><span>(12)</span></li><li><a href="/ACdreamers/article/month/2013/12">2013年12月</a><span>(16)</span></li><li><a href="/ACdreamers/article/month/2013/11">2013年11月</a><span>(31)</span></li><li><a href="/ACdreamers/article/month/2013/10">2013年10月</a><span>(20)</span></li><li><a href="/ACdreamers/article/month/2013/09">2013年09月</a><span>(28)</span></li><li><a href="/ACdreamers/article/month/2013/08">2013年08月</a><span>(49)</span></li><li><a href="/ACdreamers/article/month/2013/07">2013年07月</a><span>(28)</span></li><li><a href="/ACdreamers/article/month/2013/06">2013年06月</a><span>(17)</span></li><li><a href="/ACdreamers/article/month/2013/05">2013年05月</a><span>(42)</span></li><li><a href="/ACdreamers/article/month/2013/04">2013年04月</a><span>(18)</span></li><li><a href="/ACdreamers/article/month/2013/03">2013年03月</a><span>(29)</span></li><li><a href="/ACdreamers/article/month/2013/02">2013年02月</a><span>(26)</span></li><li><a href="/ACdreamers/article/month/2013/01">2013年01月</a><span>(15)</span></li><li><a href="/ACdreamers/article/month/2012/12">2012年12月</a><span>(3)</span></li><li><a href="/ACdreamers/article/month/2012/11">2012年11月</a><span>(8)</span></li><li><a href="/ACdreamers/article/month/2012/10">2012年10月</a><span>(9)</span></li><li><a href="/ACdreamers/article/month/2012/09">2012年09月</a><span>(8)</span></li><li><a href="/ACdreamers/article/month/2012/08">2012年08月</a><span>(11)</span></li><li><a href="/ACdreamers/article/month/2012/07">2012年07月</a><span>(3)</span></li><li><a href="/ACdreamers/article/month/2012/06">2012年06月</a><span>(46)</span></li>
+</div>
+</ul>
+</div>
+<div id="hotarticls" class="panel">
+<ul class="panel_head">
+    <span>       
+阅读排行    </span>
+</ul>
+
+<ul class="panel_body itemlist">
+<li>
+<a href="/acdreamers/article/details/21397809" title="网络刷博器">网络刷博器</a><span>(21325)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/8542292" title="莫比乌斯反演">莫比乌斯反演</a><span>(13830)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/10019849" title="模拟退火算法">模拟退火算法</a><span>(10831)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/18039073" title="石子合并问题">石子合并问题</a><span>(9759)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/7627531" title="抚摸那条船——彭晓东">抚摸那条船——彭晓东</a><span>(9211)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/9318727" title="HDU4389(数位DP)">HDU4389(数位DP)</a><span>(8886)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/8037918" title="组合数取模">组合数取模</a><span>(8832)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/8220787" title="逆元详解">逆元详解</a><span>(7776)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/16849761" title="归并排序求逆序对">归并排序求逆序对</a><span>(7165)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/7626564" title="大河家">大河家</a><span>(6556)</span>
+</li>
+</ul>
+</div>
+<div id="hotarticls2" class="panel">
+<ul class="panel_head"><span>评论排行</span></ul>
+<ul class="panel_body itemlist">
+<li>
+<a href="/acdreamers/article/details/21397809" title="网络刷博器">网络刷博器</a><span>(14)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/44657439" title="BP神经网络">BP神经网络</a><span>(14)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/8542292" title="莫比乌斯反演">莫比乌斯反演</a><span>(9)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/16902023" title="深度理解链式前向星">深度理解链式前向星</a><span>(8)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/8037918" title="组合数取模">组合数取模</a><span>(8)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/24719937" title="利用Python编写网络爬虫下载文章">利用Python编写网络爬虫下载文章</a><span>(6)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/10083393" title="表为平方和初级版">表为平方和初级版</a><span>(6)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/10043057" title="关于丢番图方程x^2-dy^2=-1">关于丢番图方程x^2-dy^2=-1</a><span>(5)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/24023235" title="又见莫比乌斯反演">又见莫比乌斯反演</a><span>(5)</span>
+</li>
+<li>
+<a href="/acdreamers/article/details/7850921" title="关于阶乘问题">关于阶乘问题</a><span>(5)</span>
+</li>
+</ul>
+</div>
+<div id="homepageArticles" class="panel tracking-ad" data-mod="popu_4">
+<ul class="panel_head"><span>推荐文章</span></ul>
+<ul class="panel_body" id="ad_commend">
+<ul>
+<li><a href="http://blog.csdn.net/unix21/article/details/50911387" 
+
+target="_blank">*调试JDK源码-一步一步看HashMap怎么Hash和扩容</a></li>
+<li><a href="http://blog.csdn.net/CloudyBird/article/details/50910617" 
+target="_blank">*你真的了解iOS代理设计模式吗？</a></li>
+<li><a href="http://blog.csdn.net/fanyun_01/article/details/50921678" 
+
+target="_blank">*浅谈Storm流式处理框架</a></li>
+<li><a 
+
+href="http://blog.csdn.net/u013088062/article/details/50893901"target="_blank">*有关深度学习领域的几点想法</a></li>
+<li><a href="http://blog.csdn.net/u013064109/article/details/50907741" 
+target="_blank">* 浅谈百度地图的简单开发之结合方向传感器实现定位功能（三）</a></li>
+<li><a href="http://blog.csdn.net/fanyun_01/article/details/50912026" target="_blank">*大数据常用十种开发语言</a></li>
+
+</ul></ul>
+</div>
+
+
+<div id="newcomments" class="panel">
+<ul class="panel_head"><span>最新评论</span></ul>
+<ul class="panel_body itemlist">
+    <li>
+   
+         <a href="/acdreamers/article/details/44664941#comments">BFGS算法</a>
+    <p style="margin:0px;"><a href="/lovicy" class="user_name">lovicy</a>:
+拟牛顿法是用Hessian矩阵的逆矩阵来代替Hessian  矩阵。这句话怎么理解呀？我理解的是用H...
+    </p>
+    </li>
+    <li>
+   
+         <a href="/acdreamers/article/details/44662633#comments">矩阵求导解最小二乘问题</a>
+    <p style="margin:0px;"><a href="/wu_nan_nan" class="user_name">wu_nan_nan</a>:
+thanks
+    </p>
+    </li>
+    <li>
+   
+         <a href="/acdreamers/article/details/44662633#comments">矩阵求导解最小二乘问题</a>
+    <p style="margin:0px;"><a href="/wu_nan_nan" class="user_name">wu_nan_nan</a>:
+敢问楼主，我这种理解对吗？——“标量对矩阵的求导，就是拿标量对该矩阵的每一个元素求导。”
+    </p>
+    </li>
+    <li>
+   
+         <a href="/acdreamers/article/details/45026459#comments">贝叶斯学习及共轭先验</a>
+    <p style="margin:0px;"><a href="/hualizhuanshen2014" class="user_name">hualizhuanshen2014</a>:
+请问博主，学习这些机器学习算法应该看些什么资料，看你的博文更新时间，一天就能学习很多种算法，实在敬佩...
+    </p>
+    </li>
+    <li>
+   
+         <a href="/acdreamers/article/details/45026459#comments">贝叶斯学习及共轭先验</a>
+    <p style="margin:0px;"><a href="/hualizhuanshen2014" class="user_name">hualizhuanshen2014</a>:
+请问博主，学习这些机器学习算法应该看些什么资料，看你的博文更新时间，一天就能学习很多种算法，实在敬佩...
+    </p>
+    </li>
+    <li>
+   
+         <a href="/acdreamers/article/details/45026459#comments">贝叶斯学习及共轭先验</a>
+    <p style="margin:0px;"><a href="/hualizhuanshen2014" class="user_name">hualizhuanshen2014</a>:
+请问博主，学习这些机器学习算法应该看些什么资料，看你的博文更新时间，一天就能学习很多种算法，实在敬佩...
+    </p>
+    </li>
+    <li>
+   
+         <a href="/acdreamers/article/details/44657439#comments">BP神经网络</a>
+    <p style="margin:0px;"><a href="/sxgfxm" class="user_name">sxgfxm</a>:
+@chaoailove:确实是写错了，应该乘的是前一层的输出值x
+    </p>
+    </li>
+    <li>
+   
+         <a href="/acdreamers/article/details/10023615#comments">POJ1228(稳定凸包问题)</a>
+    <p style="margin:0px;"><a href="/wust_zzwh" class="user_name">wust_zzwh</a>:
+你的代码确实有问题80 04 00 42 21 00 12 00 2这组没问题！但是稍微改一下70 ...
+    </p>
+    </li>
+    <li>
+   
+         <a href="/acdreamers/article/details/10023615#comments">BP神经网络</a>
+    <p style="margin:0px;"><a href="/ACdreamers" class="user_name">ACdreamers</a>:
+@endl001:首先你要明确你用神经网络来做什么，比如分类，如果是分类，那么就看分类的效果。我这只...
+    </p>
+    </li>
+    <li>
+   
+         <a href="/acdreamers/article/details/10023615#comments">BP神经网络</a>
+    <p style="margin:0px;"><a href="/endl001" class="user_name">endl001</a>:
+不好意思，问下楼主，运行之后，输入什么进行测试呢，输出什么可能是正确的。我是菜鸟，麻烦指点下了，感激...
+    </p>
+    </li>
+</ul>
+</div>
+    </div>
+    <div class="clear">
+    </div>
+ </div>   
+            <div class="clear">
+            </div>
+        </div>
+        
+
+<script type="text/javascript" src="http://c.csdnimg.cn/rabbit/cnick/cnick.js"></script>
+<script type="text/javascript" src="http://static.blog.csdn.net/scripts/newblog.min.js"></script>
+
+
+<script type="text/javascript" src="http://medal.blog.csdn.net/showblogmedal.ashx?blogid=1305970"></script>
+<script type="text/javascript" src="http://static.blog.csdn.net/scripts/JavaScript1.js"></script>
+
+    <script type="text/javascript" src="http://passport.csdn.net/content/loginbox/login.js"></script>
+<script type="text/javascript">document.write("<img src=http://counter.csdn.net/pv.aspx?id=26 border=0 width=0 height=0>");</script>
+<script type="text/javascript" src="http://www.csdn.net/ui/scripts/Csdn/counter.js"></script>
+<script type="text/javascript" src="http://ad.csdn.net/scripts/ad-blog.js"></script>
+<script type="text/javascript">
+    $(function () {
+        function __get_code_toolbar(snippet_id) {
+            return $("<span class='tracking-ad' data-mod='popu_167'><a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "' target='_blank' title='在CODE上查看代码片'  style='text-indent:0;'><img src='https://code.csdn.net/assets/CODE_ico.png' width=12 height=12 alt='在CODE上查看代码片' style='position:relative;top:1px;left:2px;'/></a></span>"
+                    + "<span class='tracking-ad' data-mod='popu_170'><a href='https://code.csdn.net/snippets/"
+                    + snippet_id
+                    + "/fork' target='_blank' title='派生到我的代码片' style='text-indent:0;'><img src='https://code.csdn.net/assets/ico_fork.svg' width=12 height=12 alt='派生到我的代码片' style='position:relative;top:2px;left:2px;'/></a></span>");
+        }
+        
+        $("[code_snippet_id]").each(function () {
+            __s_id = $(this).attr("code_snippet_id");
+            if (__s_id != null && __s_id != "" && __s_id != 0 && parseInt(__s_id) > 70020) {
+                __code_tool = __get_code_toolbar(__s_id);
+                $(this).prev().find(".tools").append(__code_tool);
+            }
+        });
+
+        $(".bar").show();
+    });
+</script>
+
+
+
+
+    </div>
+      <!--new top-->
+    
+    <script id="csdn-toolbar-id" btnId="header_notice_num" wrapId="note1" count="5" subCount="5" type="text/javascript" src="http://c.csdnimg.cn/public/common/toolbar/js/toolbar.js"></script>     <!--new top-->
+   
+    <link href="http://c.csdnimg.cn/comm_ask/css/ask_float_block.css" type="text/css" rel="stylesheet" />
+    <script language='JavaScript' type='text/javascript' src='http://c.csdnimg.cn/comm_ask/js/libs/wmd.js'></script>
+    <script language='JavaScript' type='text/javascript' src='http://c.csdnimg.cn/comm_ask/js/libs/showdown.js'></script>
+    <script language='JavaScript' type='text/javascript' src='http://c.csdnimg.cn/comm_ask/js/libs/prettify.js'></script>
+    <script language='JavaScript' type='text/javascript' src='http://c.csdnimg.cn/comm_ask/js/apps/ask_float_block.js'></script>
+   
+<script type="text/javascript" src="http://un.winasdaq.com/ydap.js?ydcp_id=10059"></script></body>
+</html>   
+ 
