@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from scrapy.utils.path import urlpath
-from scrapy.parse.http import sendproxys,sendurls
+from scrapy.stroage.url import Url
+from scrapy.storage.proxy import Proxy
 
 START_URL = 'www.haodailiip.com/guonei/1'
 SCRAPY_UUID = 'proxyhaodaili'
@@ -17,14 +18,11 @@ class Link:
             hrefs = self.html.find('td',{'class':'td760'}).findAll('a')
             self.urls = [urlpath('/'.join(['www.haodailiip.com',a.get('href')])) for a in hrefs]
         except:
-            print 'ERROR\n\n\n'
-            print self.html,'\n\n\n'
-        print self.urls
 
         self.push()
 
     def push(self):
-        sendurls(self.urls,self.uuid) 
+        Url(self.urls,self.uuid).save() 
 
 class Content:
     
@@ -49,10 +47,9 @@ class Content:
                 attr['scheme'] = tds[3].text.strip()
                 attr['anonymous'] = tds[4].text.strip()
                 self.attrs.append(attr)
-            print self.attrs
-            self.push()
         except: 
             pass
-            
+        self.push()
+ 
     def push(self):
-        sendproxys(self.attrs) 
+        Proxy(self.attrs).save()

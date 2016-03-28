@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
 from scrapy.utils.path import urlpath
-from scrapy.parse.http import sendurls
+from scrapy.storage.url import Url
+from scrapy.storage.html import Html
 
 START_URL = 'blog.csdn.net/ACdreamers/article/list/1'
 SCRAPY_UUID = 'csdn_ACdreamers'
@@ -17,14 +18,11 @@ class Link:
             hrefs = self.html.find('div',{'id':'papelist'}).findAll('a')
             self.urls = [urlpath('/'.join(['blog.csdn.net',a.get('href')])) for a in hrefs]
         except:
-            print 'ERROR\n\n\n'
-            print self.html,'\n\n\n'
-        print self.urls
 
         self.push()
 
     def push(self):
-        sendurls(self.urls,self.uuid) 
+        Url(self.urls,self.uuid).save()
 
 class Content:
     
@@ -32,7 +30,7 @@ class Content:
         self.html = html
         self.attrs = []
         self.uuid = uuid
-                
+        self.htmls = []          
     def parse(self):
 
         try:
@@ -40,9 +38,12 @@ class Content:
             for span in spans:
                 articleurl = '/'.join(['blog.csdn.net',span.find('a').get('href')])
                 title = span.find('a').text
-                print articleurl ,title
+                self.htmls.append((articleurl ,title))
         except: 
             pass
-            
+           
+        self.push()
+ 
     def push(self):
-        pass
+        for url,title in self.htmls:
+            Html(url,title).save() 

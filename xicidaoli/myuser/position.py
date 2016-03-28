@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from scrapy.utils.path import urlpath
-from scrapy.parse.http import sendproxys,sendurls
+from scrapy.storage.url import Url
+from scrapy.storage.proxy import Proxy
+
 START_URL = 'www.xicidaili.com/nn/4'
 SCRAPY_UUID = 'xicidaili4'
 class Link:
@@ -15,15 +17,13 @@ class Link:
             hrefs = self.html.find('div',{'class':'pagination'}).findAll('a')
             self.urls = [urlpath('/'.join([self.site,a.get('href')])) for a in hrefs]
         except:
-            print 'ERROR\n\n\n'
-            print self.html,'\n\n\n'
+            pass
 
         self.push()
 
     def push(self):
-        print self.urls
-        sendurls(self.urls,self.uuid) 
-    
+        Url(self.urls,self.uuid).save()
+ 
 class Content:
     
     def __init__(self,html,uuid):
@@ -46,13 +46,12 @@ class Content:
                 attr['port'] = tds[3].text.strip()
                 attr['scheme'] = tds[6].text.strip()
                 attr['anonymous'] = tds[5].text.strip()
-                
                 self.attrs.append(attr)
-            print self.attrs
-            self.push()
         except: 
             pass
-            
+        self.push()
+ 
     def push(self):
+        Proxy(self.attrs).save()
         sendproxys(self.attrs) 
         
