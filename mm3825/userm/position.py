@@ -35,10 +35,11 @@ class NLink(Link):
     
         try:
             div = self.html.find('div',{'align':'center'})
-            ae = div.find('a')
+            aes = div.findAll('a')
+            ae = aes[-1]
             self.urls = [urlpath('/'.join(['mm3825.com',ae.get('href')]))] 
         except:
-            pass
+            print str(traceback.format_exc()) 
         self.push()
  
 class Content:
@@ -81,5 +82,8 @@ class IMG(Content):
 
     def push(self):
         for src in self.htmls:
-            Jpg(src).save()
+            try:
+                Jpg(src).save()
+            except:
+                print traceback.format_exc()
 
