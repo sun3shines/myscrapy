@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from scrapy.utils.path import urlpath
-from scrapy.storage.url import Url
-from scrapy.storage.proxy import Proxy
+from fastscrapy.utils.path import urlpath
+from fastscrapy.storage.url import Url
+from fastscrapy.storage.proxy import Proxy
 
 START_URL = 'www.xicidaili.com/nn/4'
 SCRAPY_UUID = 'xicidaili4'

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from scrapy.utils.path import urlpath
-from scrapy.stroage.url import Url
-from scrapy.storage.proxy import Proxy
+from fastscrapy.utils.path import urlpath
+from fastscrapy.stroage.url import Url
+from fastscrapy.storage.proxy import Proxy
 
 START_URL = 'www.haodailiip.com/guonei/1'
 SCRAPY_UUID = 'proxyhaodaili'
@@ -18,7 +18,7 @@ class Link:
             hrefs = self.html.find('td',{'class':'td760'}).findAll('a')
             self.urls = [urlpath('/'.join(['www.haodailiip.com',a.get('href')])) for a in hrefs]
         except:
-
+            pass
         self.push()
 
     def push(self):

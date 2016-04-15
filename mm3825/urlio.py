@@ -1,4 +1,4 @@
-from scrapy.common.requests.task import Url
+from fastscrapy.common.requests.task import Url
 from BeautifulSoup import BeautifulSoup
 from userm.position import Link,Content
 from userm.position import START_URL,NLink,IMG

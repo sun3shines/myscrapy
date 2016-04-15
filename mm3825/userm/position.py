@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
-from scrapy.utils.path import urlpath
-from scrapy.storage.url import Url
-from scrapy.storage.html import Html
-from scrapy.storage.jpg import Jpg
+from fastscrapy.utils.path import urlpath
+from fastscrapy.storage.url import Url
+from fastscrapy.storage.html import Html
+from fastscrapy.storage.jpg import Jpg
 import traceback
 
 # START_URL = 'mm3825.com/html/part/index17.htm'

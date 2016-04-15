@@ -1,4 +1,4 @@
-from scrapy.common.requests.task import Url
+from fastscrapy.common.requests.task import Url
 from BeautifulSoup import BeautifulSoup
 from myuser.position import Link,Content
 class UrlIO(Url):

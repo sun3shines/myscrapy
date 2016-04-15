@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from scrapy.utils.path import urlpath
-from scrapy.storage.url import Url
-from scrapy.storage.html import Html
+from fastscrapy.utils.path import urlpath
+from fastscrapy.storage.url import Url
+from fastscrapy.storage.html import Html
 
 START_URL = 'blog.csdn.net/ACdreamers/article/list/1'
 SCRAPY_UUID = 'csdn_ACdreamers'

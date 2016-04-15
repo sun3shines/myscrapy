@@ -2,8 +2,8 @@
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
-from scrapy.worker.core.arch import Scrapy
-from scrapy.worker.core.proc import Proc
+from fastscrapy.worker.core.arch import Scrapy
+from fastscrapy.worker.core.proc import Proc
 
 from myuser.position import Link,Content,START_URL,SCRAPY_UUID
 from mysys.conf import MyConf
